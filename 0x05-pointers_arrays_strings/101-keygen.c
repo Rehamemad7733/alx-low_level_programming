@@ -17,7 +17,7 @@ int main(void)
     srand((unsigned int)time(&t));
     while (j < 2772)
     {
-        i = rand() % 94 + 33;  // Generate random ASCII characters from 33 to 126 (printable range)
+        i = rand() % 94 + 33;  /* Generate random ASCII characters from 33 to 126 (printable range) */
         if ((j + i) > 2772)
             break;
         j += i;
